@@ -16,7 +16,6 @@ import java.util.List;
 
 /**
  * 定时任务调度信息 服务层
- *
  */
 @Service
 public class JobServiceImpl implements IJobService {
@@ -115,7 +114,7 @@ public class JobServiceImpl implements IJobService {
      * 批量删除调度信息
      *
      * @param ids 需要删除的数据ID
-     * @return  结果
+     * @return 结果
      */
     @Override
     public void deleteJobByIds(String ids) {
@@ -128,6 +127,7 @@ public class JobServiceImpl implements IJobService {
 
     /**
      * 任务调度状态修改
+     *
      * @param job 调度信息
      */
     @Override

@@ -7,7 +7,6 @@ import java.util.List;
 
 /**
  * 调度任务信息 数据层
- *
  */
 public interface JobMapper {
 
@@ -47,7 +46,7 @@ public interface JobMapper {
      * @param ids 需要删除的数据ID
      * @return 结果
      */
-    int deleteJobLogByIds(Long[] ids);
+    int deleteJobByIds(Long[] ids);
 
     /**
      * 修改调度任务信息
