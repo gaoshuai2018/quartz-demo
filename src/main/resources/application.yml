@@ -7,6 +7,3 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
-
-server:
-  max-http-header-size: 10000000
